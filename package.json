@@ -2,7 +2,7 @@
   "name": "rguhack2018",
   "version": "1.0.0",
   "description": "rguhack innit",
-  "main": "test.js",
+  "main": "main.js",
   "dependencies": {
     "@google-cloud/speech": "^1.4.0",
     "node-record-lpcm16": "^0.3.0"
