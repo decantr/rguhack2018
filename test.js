@@ -3,6 +3,7 @@
 // Imports the Google Cloud client library
 const fs = require('fs');
 const speech = require('@google-cloud/speech');
+const record = require('node-record-lpcm16');
 
 // create client
 const client = new speech.SpeechClient();
@@ -11,7 +12,6 @@ const client = new speech.SpeechClient();
 const encoding = 'LINEAR16';
 const sampleRateHertz = 16000;
 const languageCode = 'en-US';
-const record = require('node-record-lpcm16');
 
 // stream config
 const config = {
